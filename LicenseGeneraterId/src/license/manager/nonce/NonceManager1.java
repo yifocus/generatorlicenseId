@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-import license.dao.LicenseMacAddressMapper;
+import license.dao.LicenseMacAddressDao;
 import license.util.LicenseUtil;
 
 
@@ -24,7 +24,7 @@ import license.util.LicenseUtil;
 public class NonceManager1 {
 
 	
-	LicenseMacAddressMapper lisenceMacAddressMapper = new license.dao.LicenseMacAddressMapper();
+	LicenseMacAddressDao lisenceMacAddressMapper = new license.dao.LicenseMacAddressDao();
 	/**
 	 * 比较 License 中的nonce 和本地的nonce进行比较
 	 * @author focus

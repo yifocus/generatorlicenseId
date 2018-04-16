@@ -17,7 +17,8 @@ public class JiveGlobals {
 				if(p.isEmpty()){
 					FileInputStream read;
 					try {
-						read = new FileInputStream(".././config/Test.properties");
+						read = new FileInputStream(".././config/license.properties");
+//						read = new FileInputStream("config/license.properties");
 						p.load(read);
 						read.close();
 					} catch (Exception e) {
